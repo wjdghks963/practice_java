@@ -12,16 +12,25 @@ public class enumType {
         // calendar는 일주일의 기준을 일요일로 시작한다 => today에서 1은 일요일
         Calendar now = Calendar.getInstance();
         int today = now.get(Calendar.DAY_OF_WEEK);
+        Week weekOfToday =  Week.MONDAY;
+        switch (today){
+            case 1 : weekOfToday = Week.SUNDAY; break;
+            case 3 : weekOfToday = Week.TUESDAY; break;
+            case 4 : weekOfToday = Week.WEDNESDAY; break;
+            case 5 : weekOfToday = Week.THURSDAY; break;
+            case 6 : weekOfToday = Week.FRIDAY; break;
+            case 7 : weekOfToday = Week.SATURDAY; break;
+        }
 
-        myJobToday(today);
+        myJobToday(weekOfToday);
     }
 
 
-        private static void myJobToday(int today){
+        private static void myJobToday(Week today){
 
          switch (today) {
-             case 1 : System.out.println(Week.SUNDAY + "오늘은 노는 날입니다."); break;
-             case 2 : System.out.println(Week.MONDAY + "오늘은 공부하는 날입니다."); break;
+             case SUNDAY : System.out.println(Week.SUNDAY + "오늘은 노는 날입니다."); break;
+             case MONDAY : System.out.println(Week.MONDAY + "오늘은 공부하는 날입니다."); break;
              default: System.out.println("오늘은 노는 날입니다."); break;
         };
 

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="배열에 대하여">
-      <change afterPath="$PROJECT_DIR$/src/chap03/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap03/enumType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap03/enumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap03/enumType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
       <updated>1670292836382</updated>
       <workItem from="1670292837468" duration="1810000" />
       <workItem from="1670295418306" duration="12943000" />
-      <workItem from="1670827289031" duration="7818000" />
+      <workItem from="1670827289031" duration="9129000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
