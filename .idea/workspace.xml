@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="class 타입 변환">
-      <change afterPath="$PROJECT_DIR$/src/chap04/AbstractClass.java" afterDir="false" />
+    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="abstract란">
+      <change afterPath="$PROJECT_DIR$/src/chap05/Interface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClassExtend">
+  <component name="RunManager" selected="애플리케이션.Interface">
     <configuration name="ClassAcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap03.ClassAcess" />
       <module name="practice_java" />
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhatIsClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.WhatIsClass" />
+    <configuration name="Interface (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap05.Interface" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03.*" />
+          <option name="PATTERN" value="chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhatIsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.WhatIsClass" />
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap05.Interface" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03.*" />
+          <option name="PATTERN" value="chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Interface" />
+        <item itemvalue="애플리케이션.Interface (1)" />
         <item itemvalue="애플리케이션.ClassExtend" />
         <item itemvalue="애플리케이션.ClassTypeCast" />
         <item itemvalue="애플리케이션.ClassAcess" />
-        <item itemvalue="애플리케이션.WhatIsClass (1)" />
-        <item itemvalue="애플리케이션.WhatIsClass" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,7 @@
       <workItem from="1670295418306" duration="12943000" />
       <workItem from="1670827289031" duration="9902000" />
       <workItem from="1670911354676" duration="6886000" />
-      <workItem from="1671000996478" duration="6246000" />
+      <workItem from="1671000996478" duration="10252000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671009811084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="abstract란">
+      <created>1671011276971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671011276971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="class 접근 제한자" />
     <MESSAGE value="class 상속과 접근 제한자" />
     <MESSAGE value="class 타입 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 타입 변환" />
+    <MESSAGE value="abstract란" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract란" />
   </component>
 </project>
