@@ -22,6 +22,11 @@ public class UseThread {
         Thread mainThread = Thread.currentThread();
         System.out.println("프로그램 메인 스레드"+mainThread.getName());
 
+        // 데몬 스레드
+        DemonThread demonThread = new DemonThread();
+        demonThread.setDaemon(true);
+        demonThread.start();
+
         // runable의 run 실행
         thread.start();
         beepThread.start();
@@ -39,6 +44,7 @@ public class UseThread {
     }
 }
 // 작업 스레드가 실행할 수 있는 코드를 가지고 있는 객체 Runnable interface를 이용해 구현 객체를 만듦
+// run 블록 안에 있는 작업을 마치면 스레드는 제거된다.
 class Task implements Runnable{
     @Override
     public void run() {
@@ -57,6 +63,26 @@ class BeepTask implements Runnable{
                 // 0.5초 정지
                 Thread.sleep(500);
             }catch (Exception e){}
+        }
+    }
+}
+
+// Demon 스레드는 메인 스레드의 보조 스레드로 메인 스레드가 종료되면 같이 종료된다.
+// 사용하기 위해선 setDemon(true)로 설정을 한 후 start한다.
+class DemonThread extends Thread{
+    public void save(){
+        System.out.println("저장 완료");
+    }
+
+    @Override
+    public void run() {
+        while (true){
+            try{
+                Thread.sleep(1000);
+            }catch (InterruptedException e){
+                break;
+            }
+        save();
         }
     }
 }
