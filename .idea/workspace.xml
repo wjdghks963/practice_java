@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="프로그래머가 예외를 처리하는 방법">
-      <change afterPath="$PROJECT_DIR$/src/chap07/JAVALangAPI.java" afterDir="false" />
+    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="JAVA가 가지고 있는 패키지 살펴보기">
+      <change afterPath="$PROJECT_DIR$/src/chap08/SyncThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap08/UseThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +59,7 @@
       <recent name="$PROJECT_DIR$/src/chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.JAVALangAPI (2)">
-    <configuration name="ExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.ExceptionClass" />
-      <module name="practice_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.SyncThread (1)">
     <configuration name="JAVALangAPI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap07.JAVALangAPI" />
       <module name="practice_java" />
@@ -98,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JAVALangAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07.JAVALangAPI" />
+    <configuration name="SyncThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap08.SyncThread" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap07.*" />
+          <option name="PATTERN" value="chap08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTimeException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap06.RunTimeException" />
+    <configuration name="SyncThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap08.SyncThread" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap06.*" />
+          <option name="PATTERN" value="chap08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap08.UseThread" />
+      <module name="practice_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SyncThread (1)" />
+        <item itemvalue="애플리케이션.SyncThread" />
+        <item itemvalue="애플리케이션.UseThread" />
         <item itemvalue="애플리케이션.JAVALangAPI (2)" />
         <item itemvalue="애플리케이션.JAVALangAPI (1)" />
-        <item itemvalue="애플리케이션.JAVALangAPI" />
-        <item itemvalue="애플리케이션.RunTimeException" />
-        <item itemvalue="애플리케이션.ExceptionClass" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1670911354676" duration="6886000" />
       <workItem from="1671000996478" duration="11730000" />
       <workItem from="1671026230301" duration="1375000" />
-      <workItem from="1671077158097" duration="9272000" />
+      <workItem from="1671077158097" duration="11382000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671085479210</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="JAVA가 가지고 있는 패키지 살펴보기">
+      <created>1671089155967</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671089155967</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +277,7 @@
     <MESSAGE value="어떤 컴파일 Exception Error들이 있나" />
     <MESSAGE value="주석 처리" />
     <MESSAGE value="프로그래머가 예외를 처리하는 방법" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머가 예외를 처리하는 방법" />
+    <MESSAGE value="JAVA가 가지고 있는 패키지 살펴보기" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA가 가지고 있는 패키지 살펴보기" />
   </component>
 </project>
