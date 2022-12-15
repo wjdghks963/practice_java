@@ -9,7 +9,7 @@ public class ExceptionClass {
 // null 객체에 접근
 class NullPointerEX{
     String data = null;
-    data.toString();
+   // data.toString();
 }
 
 // 존재하지 않는 index 참조
