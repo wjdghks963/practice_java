@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="Sync Thread by synchronized keyword">
-      <change afterPath="$PROJECT_DIR$/src/chap08/ControlThread.java" afterDir="false" />
+    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="Thread controll">
+      <change afterPath="$PROJECT_DIR$/src/chap09/Collections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08/UseThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap08/UseThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
@@ -59,13 +58,13 @@
       <recent name="$PROJECT_DIR$/src/chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.UseThread (1)">
-    <configuration name="ControlThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap08.ControlThread" />
+  <component name="RunManager" selected="애플리케이션.Collections">
+    <configuration name="Collections (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap09.Collections" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap08.*" />
+          <option name="PATTERN" value="chap09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlThread (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap08.ControlThread" />
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap09.Collections" />
       <module name="practice_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap08.*" />
+          <option name="PATTERN" value="chap09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Collections" />
+        <item itemvalue="애플리케이션.Collections (1)" />
         <item itemvalue="애플리케이션.UseThread (1)" />
         <item itemvalue="애플리케이션.UseThread" />
         <item itemvalue="애플리케이션.ControlThread" />
-        <item itemvalue="애플리케이션.ControlThread (3)" />
-        <item itemvalue="애플리케이션.ControlThread (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,7 @@
       <workItem from="1670911354676" duration="6886000" />
       <workItem from="1671000996478" duration="11730000" />
       <workItem from="1671026230301" duration="1375000" />
-      <workItem from="1671077158097" duration="12922000" />
+      <workItem from="1671077158097" duration="15011000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
@@ -270,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671093960738</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Demon Thread">
+      <created>1671095535672</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671095535672</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Thread controll">
+      <created>1671095547153</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671095547153</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +307,8 @@
     <MESSAGE value="JAVA가 가지고 있는 패키지 살펴보기" />
     <MESSAGE value="JAVA multiThread" />
     <MESSAGE value="Sync Thread by synchronized keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sync Thread by synchronized keyword" />
+    <MESSAGE value="Demon Thread" />
+    <MESSAGE value="Thread controll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread controll" />
   </component>
 </project>
