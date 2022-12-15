@@ -2,30 +2,30 @@ package chap05;
 
 public class NestClassInterface {
     public static void main(String[] args) {
-        Test Test =  new Test();
+        NestTest NestTest =  new NestTest();
         // 정적 x
-        Test.NestedClass TestNC =  Test.new NestedClass();
-        TestNC.sayId(TestNC.NestID);
+        NestTest.NestedClass NestTestNC =  NestTest.new NestedClass();
+        NestTestNC.sayId(NestTestNC.NestID);
         // 정적
-        Test.StaticNestedClass TestSNC = new Test.StaticNestedClass();
-        chap05.Test.StaticNestedClass.sayId(TestSNC.SNCID);
+        NestTest.StaticNestedClass NestTestSNC = new NestTest.StaticNestedClass();
+        chap05.NestTest.StaticNestedClass.sayId(NestTestSNC.SNCID);
         // local
-        Test.localClassPrint();
-        // interface test
-        Test.setNIF(new NIFTest());
-        Test.touch();
+        NestTest.localClassPrint();
+        // interface NestTest
+        NestTest.setNIF(new NIFNestTest());
+        NestTest.touch();
     }
 
     }
 
-    class Test{
+    class NestTest{
 
         int ID = 10;
         // 중첩 클래스
         class NestedClass {
             public int NestID = 0;
             NestedClass(){}
-           public void sayId(int ID){ System.out.println("Nested ID는"+ID+ "밖 ID는"+Test.this.ID);}
+           public void sayId(int ID){ System.out.println("Nested ID는"+ID+ "밖 ID는"+NestTest.this.ID);}
         }
 
         static class StaticNestedClass {
@@ -67,7 +67,7 @@ public class NestClassInterface {
 
     }
 
-class NIFTest implements Test.NestedInterface {
+class NIFNestTest implements NestTest.NestedInterface {
     @Override
     public void setName(String name) {
         System.out.println(name);
