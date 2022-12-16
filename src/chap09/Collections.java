@@ -8,10 +8,11 @@ public class Collections {
         //listCollections.ListMethod();
         //listCollections.LinkedListMethod();
 
-        SetCollections setCollections = new SetCollections();
-        setCollections.hashSetMethod();
+//        SetCollections setCollections = new SetCollections();
+//        setCollections.hashSetMethod();
 
-
+        MapCollections mapCollections = new MapCollections();
+        mapCollections.HashMap();
 
     }
 }
@@ -100,3 +101,71 @@ class SetCollections{
     }
 }
 
+// Map
+// 1. key - value로 구성된 Map.Entry 객체를 저장하는 구조 2. key, value는 객체 3. key는 중복 불가, value는 중복 저장 가능 4. 동일한 key로 저장시 value update
+class MapCollections{
+    // HashMap
+    Map<String, Integer> hashmap = new HashMap<String, Integer>();
+
+    void HashMap(){
+        // craete Map.Entry
+        hashmap.put("철수",90);
+        hashmap.put("영수",81);
+        hashmap.put("김수",30);
+        hashmap.put("가수",10);
+
+        System.out.println("Map의 size는 "+hashmap.size()+"\t 철수의 점수는 "+ hashmap.get("철수"));
+
+        // Set으로 key-value 얻기
+        Set<String> keySet = hashmap.keySet();
+        Iterator<String> iterator = keySet.iterator();
+
+        while (iterator.hasNext()){
+            String key = iterator.next();
+            Integer value = hashmap.get(key);
+            System.out.println("key : "+key+"\t value : "+value);
+        }
+
+        // 가수 제거
+        hashmap.remove("가수");
+    }
+
+    // HashTable
+    // 1. 동기화된 메소드로 구성 = 멀티 스레드가 동시에 hashtable의 메소드 실행 못함 => 스레드에 안전
+    Map<String, String> hashtable = new Hashtable<String, String>();
+
+    void HashTable(){
+        // id, password를 map으로 저장
+        hashtable.put("봄", "12");
+        hashtable.put("여름", "123");
+        hashtable.put("가을", "1234");
+        hashtable.put("겨울", "12345");
+
+        // 내용 입력받기 위해 스캐너 사용
+        Scanner scanner = new Scanner(System.in);
+
+        while (true){
+            System.out.println("아이디와 비번 입력하세요");
+            System.out.println("아이디 : ");
+            String id = scanner.nextLine();
+            System.out.println("비밀번호 : ");
+            String password = scanner.nextLine();
+            System.out.println();
+
+            if(hashtable.containsKey(id)){
+                if(hashtable.get(id).equals(password)){
+                    System.out.println("로그인 완료");
+                    break;
+                }else{
+                    System.out.println("비밀번호가 다릅니다.");
+                }
+            }else{
+                System.out.println("아이디가 존재하지 않습니다.");
+            }
+        }
+
+    }
+
+
+
+}
