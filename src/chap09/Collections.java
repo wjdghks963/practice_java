@@ -169,3 +169,35 @@ class MapCollections{
 
 
 }
+
+
+// Stack(LIFO)
+class StackCollection{
+     class Coin{
+         private int value;
+         Coin(int value){this.value = value;}
+         int getValue(){
+             return value;
+         }
+     }
+
+
+     Stack<Coin> CoinBox = new Stack<Coin>();
+     void CoinBoxPush(){
+         CoinBox.push(new Coin(100));
+         CoinBox.push(new Coin(300));
+         CoinBox.push(new Coin(200));
+         CoinBox.push(new Coin(600));
+     }
+
+     void getLastCoin(){
+         System.out.println(CoinBox.peek());
+     }
+
+     void CoinBoxPopAll(){
+         while (!CoinBox.isEmpty()){
+             CoinBox.pop();
+         }
+     }
+}
+
