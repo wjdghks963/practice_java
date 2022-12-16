@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="Queue Collections">
-      <change afterPath="$PROJECT_DIR$/src/chap10/IOStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="IO Stream &#10;- OutputStream&#10;- InputStream&#10;- Writer&#10;- Reader">
+      <change afterPath="$PROJECT_DIR$/src/chap10/IOWrapperStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1671026230301" duration="1375000" />
       <workItem from="1671077158097" duration="15138000" />
       <workItem from="1671155287310" duration="10949000" />
-      <workItem from="1671191651272" duration="2785000" />
+      <workItem from="1671191651272" duration="4878000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
@@ -320,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671181267859</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="IO Stream &#10;- OutputStream&#10;- InputStream&#10;- Writer&#10;- Reader">
+      <created>1671194487062</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671194487062</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +357,7 @@
     <MESSAGE value="Map Collections" />
     <MESSAGE value="Stack Collections" />
     <MESSAGE value="Queue Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue Collections" />
+    <MESSAGE value="IO Stream &#10;- OutputStream&#10;- InputStream&#10;- Writer&#10;- Reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO Stream &#10;- OutputStream&#10;- InputStream&#10;- Writer&#10;- Reader" />
   </component>
 </project>
