@@ -11,8 +11,8 @@ public class Collections {
 //        SetCollections setCollections = new SetCollections();
 //        setCollections.hashSetMethod();
 
-        MapCollections mapCollections = new MapCollections();
-        mapCollections.HashMap();
+//        MapCollections mapCollections = new MapCollections();
+//        mapCollections.HashMap();
 
     }
 }
@@ -201,3 +201,39 @@ class StackCollection{
      }
 }
 
+// Queue(FIFO)
+class QueueCollection{
+
+    class Message{
+        String command;
+        String to;
+        Message(String command, String to){
+            this.command = command;
+            this.to = to;
+        }
+    }
+    Queue<Message> queue = new LinkedList<>();
+
+    void offerQueue(){
+        queue.offer(new Message("메일 보내기","철수"));
+        queue.offer(new Message("문자 보내기","지수"));
+        queue.offer(new Message("카톡 보내기","가수"));
+    }
+
+    void pollAll(){
+        while (!queue.isEmpty()){
+            Message msg = queue.poll();
+            switch (msg.command){
+                case "메일 보내기":{
+                    System.out.println(msg.to+"에게 "+msg.command);
+                }case "문자 보내기":{
+                    System.out.println(msg.to+"에게 "+msg.command);
+                }case "카톡 보내기":{
+                    System.out.println(msg.to+"에게 "+msg.command);
+                }
+            }
+        }
+    }
+
+
+}

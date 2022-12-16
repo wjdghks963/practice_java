@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="Map Collections">
+    <list default="true" id="09bec809-6207-4a5d-aa3d-e982f74c6021" name="변경" comment="Stack Collections">
       <change beforePath="$PROJECT_DIR$/src/chap09/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap09/Collections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +148,7 @@
       <workItem from="1671000996478" duration="11730000" />
       <workItem from="1671026230301" duration="1375000" />
       <workItem from="1671077158097" duration="15138000" />
-      <workItem from="1671155287310" duration="6165000" />
+      <workItem from="1671155287310" duration="6699000" />
     </task>
     <task id="LOCAL-00001" summary="참조 타입 변수">
       <created>1670839852055</created>
@@ -304,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671177995085</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Stack Collections">
+      <created>1671180822723</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671180822723</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +340,7 @@
     <MESSAGE value="List Collections" />
     <MESSAGE value="Set Collections" />
     <MESSAGE value="Map Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map Collections" />
+    <MESSAGE value="Stack Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack Collections" />
   </component>
 </project>
