@@ -4,9 +4,13 @@ import java.util.*;
 
 public class Collections {
     public static void main(String[] args) {
-        ListCollections listCollections = new ListCollections();
-        listCollections.ListMethod();
-        listCollections.LinkedListMethod();
+        //ListCollections listCollections = new ListCollections();
+        //listCollections.ListMethod();
+        //listCollections.LinkedListMethod();
+
+        SetCollections setCollections = new SetCollections();
+        setCollections.hashSetMethod();
+
 
 
     }
@@ -64,5 +68,35 @@ class ListCollections{
     }
 
 
+}
+
+// Set
+// 1. 객체의 저장 순서 유지하지 않는다. 2. 객체 중복 저장 x 3. 하나의 null만 저장할 수 있다.
+// 순서가 없기 때문에 전체 객체를 대상으로 한 번씩 반복해서 가져오는 반복자 iterator를 제공한다.
+class SetCollections{
+    // Hash Set
+    Set<String> stringSet = new HashSet<String>();
+    // 반복자 생성
+    Iterator<String> HashSetIterator = stringSet.iterator();
+    void hashSetMethod(){
+        addValue(stringSet);
+        loopSet(stringSet);
+    }
+
+    void addValue(Set<String> set){
+        set.add("Java");
+        set.add("Set");
+        set.add("Map");
+        set.add("List");
+        System.out.println("SET CONTENT : "+set);
+    }
+
+    void loopSet(Set<String> set){
+        Iterator<String> iterator = set.iterator();
+        while (iterator.hasNext()){
+            String element = iterator.next();
+            System.out.println("\t" + element+"\t hashcode : "+element.hashCode());
+        }
+    }
 }
 
